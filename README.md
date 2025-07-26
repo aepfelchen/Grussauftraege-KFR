@@ -1,5 +1,5 @@
 # Grussauftraege-KFR
-This project contains a collection of letters from the 18th and 19th centuries, primarily from the Schlegel family. The data is structured to facilitate the analysis of social networks and communication patterns among historical figures.
+This project contains a collection of letters from the 18th and 19th centuries, primarily from August Wilhelm von Schlegel and the early Romantic period. The data is structured to facilitate the analysis of social networks and communication patterns among historical figures. *Grußaufträge*, i.e. requests to an intermediary to greet one or more third persons, are a common feature in these letters, and the project aims to analyze these requests to understand the social dynamics of the time.
 
 ### Sample network: Network of Illocution 'grüßen' - August Wilhelm, Friedrich, Dorothea und Caroline Schlegels
 <img width="3706" height="4078" alt="Image" src="https://github.com/user-attachments/assets/04f41ea1-0cad-4313-bdbb-e4059ef5d8c4" />

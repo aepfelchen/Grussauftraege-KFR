@@ -1,18 +1,24 @@
 # Grussauftraege-KFR
-This project contains a collection of letters from the 18th and 19th centuries, primarily from August Wilhelm von Schlegel and the early Romantic period. The data is structured to facilitate the analysis of social networks and communication patterns among historical figures. *Grußaufträge*, i.e. requests to an intermediary to greet one or more third persons, are a common feature in these letters, and the project aims to analyze these requests to understand the social dynamics of the time.
+This data collection consists of letters from the period around 1800, primarily those of August Wilhelm Schlegel, Friedrich Schlegel, Dorothea Veit-Schlegel, Caroline Schlegel-Schelling, and their correspondents. The data is structured in such a way as to facilitate analysis of social networks and communication patterns between historical personalities. Greeting orders, i.e. requests to an intermediary to greet one or more third parties, are a frequent feature of these letters, and the project aims to analyse these requests in order to understand the social dynamics of the time and to identify patterns that suggest the functions of greetings and greeting orders, as explained in the article *Grüßen – grüßen lassen*.
+
 
 ### Sample network: Network of Illocution 'grüßen' - August Wilhelm, Friedrich, Dorothea und Caroline Schlegels
 <img width="3706" height="4078" alt="Image" src="https://github.com/user-attachments/assets/04f41ea1-0cad-4313-bdbb-e4059ef5d8c4" />
 
 # Data
-The source-data came from two collections of letters: a collection of letters from August Wilhelm von Schlegel (https://august-wilhelm-schlegel.de/briefedigital/), and a collection of letters from the early Romantic period (https://briefe-der-romantik.de/). The data has been processed to extract relevant information for network analysis.
-The data is organized into the following directories:
+The source data comes from the collection of letters from the Correspondence of Early Romanticism project (https://briefe-der-romantik.de/), which builds on the Digital Edition of August Wilhelm Schlegel's Correspondence project (https://august-wilhelm-schlegel.de/briefedigital/). The annotation practice there was extended to include the labelling of statements in the letter in triple or quadruple structures. The data was processed in order to extract relevant information for the network analysis. The data is organized into the following directories:
 - `network_degree`: Contains CSV files with network degree data, which includes information about the connections between individuals in the letters.
 - `network_diagram`: Contains PNG files with visual representations of the networks derived from the letters
 
 # Literature
 - August Wilhelm Schlegel: Digitale Edition der Korrespondenz. Hg. von Jochen Strobel und Claudia Bamberg. Dresden, Marburg, Trier 2014–2020; https://august-wilhelm-schlegel.de.
 - Korrespondenzen der Frühromantik; https://briefe-der-romantik.de/
+
+# Citation
+If you use this project in your research, please cite it as follows:
+```
+Fath, Laura & Strobel, Jochen unter Mitwirkung von Gwanghun Park (2025). Grüßen – und grüßen lassen. In Aline Deicke, Jochen Strobel (Hg.), Connecting the Dots. Briefe in Literaturwissenschaft und Digital Humanities. De Gruyter.
+```
 
 # Directory structure
 ```
@@ -23,10 +29,3 @@ The data is organized into the following directories:
 ```
 # License
 This project is licensed under the CC-BY-SA-4.0 license. See the [LICENSE.md](LICENSE.md) file for details.
-
-# Citation
-If you use this project in your research, please cite it as follows:
-
-```
-
-```

@@ -6,7 +6,7 @@ This data collection consists of letters from the period around 1800, primarily 
 <img width="3706" height="4078" alt="Image" src="https://github.com/user-attachments/assets/04f41ea1-0cad-4313-bdbb-e4059ef5d8c4" />
 
 # Data
-The source data comes from the collection of letters from the Correspondence of Early Romanticism project (https://briefe-der-romantik.de/), which builds on the Digital Edition of August Wilhelm Schlegel's Correspondence project (https://august-wilhelm-schlegel.de/briefedigital/). The annotation practice there was extended to include the labelling of statements in the letter in triple or quadruple structures. The data was processed in order to extract relevant information for the network analysis. The data is organized into the following directories:
+The source data comes from the collection of letters from the *Correspondence of Early Romanticism* project (https://briefe-der-romantik.de/), which builds on the *Digital Edition of August Wilhelm Schlegel's Correspondence* project (https://august-wilhelm-schlegel.de/briefedigital/). The annotation practice there was extended to include the labelling of statements in the letter in triple or quadruple structures. The data was processed in order to extract relevant information for the network analysis. The data is organized into the following directories:
 - `network_degree`: Contains CSV files with network degree data, which includes information about the connections between individuals in the letters.
 - `network_diagram`: Contains PNG files with visual representations of the networks derived from the letters
 

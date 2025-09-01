@@ -24,8 +24,19 @@ Fath, Laura & Strobel, Jochen unter Mitwirkung von Gwanghun Park (2025). Grüße
 ```
 ├── network_degree: CSV files containing network degree data. Delimited by semicolons.
 ├── network_diagram: PNG files containing network diagrams.
+├── src
+│   └── Grussauftraege-KFR
+│       └── tools: Main functions for Jupyter notebooks.
+│           └── __init__.py
+│           └── network.py: Network analysis functions for the package.
+│       └── __init__.py
+│       └── network_analysis.ipynb: Jupyter notebook for network analysis.
+├── .gitignore: gitignore file.
 ├── LICENSE.md: Project license file.
+├── poetry.lock: Poetry lock file.
+├── pyproject.toml: Poetry configuration file.
 └── README.md: This file.
 ```
+
 # License
 This project is licensed under the CC-BY-SA-4.0 license. See the [LICENSE.md](LICENSE.md) file for details.

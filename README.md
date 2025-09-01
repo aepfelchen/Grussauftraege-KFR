@@ -30,7 +30,9 @@ Fath, Laura & Strobel, Jochen unter Mitwirkung von Gwanghun Park (2025). Grüße
 │           └── __init__.py
 │           └── network.py: Network analysis functions for the package.
 │       └── __init__.py
-│       └── network_analysis.ipynb: Jupyter notebook for network analysis.
+│       └── network_analysis_gruessen_lassen.ipynb: Jupyter notebook for network analysis of illocution grüßen lassen.
+│       └── network_analysis_gruessen.ipynb: Jupyter notebook for network analysis of illocution grüßen.
+│       └── network_analysis_gruessen_schlegel.ipynb: Jupyter notebook for network analysis of schlegel.
 ├── .gitignore: gitignore file.
 ├── LICENSE.md: Project license file.
 ├── poetry.lock: Poetry lock file.

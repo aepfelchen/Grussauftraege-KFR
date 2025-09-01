@@ -12,6 +12,7 @@ dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "networkx (>=3.5,<4.0)",
     "matplotlib (>=3.10.3,<4.0.0)",
+    "nbformat (>=5.10.4,<6.0.0)",
 ]
 
 [tool.poetry]

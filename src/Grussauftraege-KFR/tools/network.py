@@ -86,7 +86,8 @@ def generate_triples_network_graph(target_df: pd.DataFrame, illocution: str,
         k (int): The spring layout parameter for the graph.
         figsize (tuple): The size of the figure for the graph.
         use_curved_edges (Literal[True, False]): If True, generate a network with curved edges; if False, generate an network with straight edges.
-        use_count (Literal[True, False]): If True, ; if False, generate an network with straight edges.
+        use_count (Literal[True, False]): If True, edges are weighted by count; if False, edges are weighted by weight (= count/10).
+        filter (Optional[int]): A threshold for filtering edges by count.
     Returns:
         nx.Graph: A NetworkX graph object representing the network of triples.
     """
@@ -175,7 +176,9 @@ def generate_in_out_degree_network(g: nx.Graph, illocution: str,
         figsize (tuple): The size of the figure for the graph.
         use_in_degree (bool): If True, generate an in-degree network; if False, generate an out-degree network.
         use_curved_edges (Literal[True, False]): If True, generate a network with curved edges; if False, generate an network with straight edges.
-        use_count (Literal[True, False]): If True, ; if False, generate an network with straight edges.
+        use_count (Literal[True, False]): If True, edges are weighted by count; if False, edges are weighted by weight (= count/10).
+    Returns:
+        nx.Graph: The generated in-degree or out-degree network graph.
     """
     while True:
         prev = len(g.nodes())
@@ -257,10 +260,10 @@ def calculate_in_out_degree(df: pd.DataFrame, illocution: str) -> pd.DataFrame:
     """
     Generate a network graph showing the in-degree or out-degree of nodes in the given graph.
     Parameters:
-        g (nx.Graph): The input graph from which to generate the in-degree or out-degree network.
+        df (pd.DataFrame): The input DataFrame containing the network data.
         illocution (str): The illocution to be displayed in the graph title.
-        time_span (str): A time span in the format 'start_date and end_date' to be displayed in the graph title.
-        use_in_degree (bool): If True, generate an in-degree network; if False, generate an out-degree network.
+    Returns:
+        pd.DataFrame: A DataFrame containing the in-degree and out-degree information.
     """
     g = nx.from_pandas_edgelist(df,
                                 source='subject_name',

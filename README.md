@@ -17,7 +17,7 @@ The source data comes from the collection of letters from the *Correspondence of
 # Citation
 If you use this project in your research, please cite it as follows:
 ```
-Fath, Laura & Strobel, Jochen unter Mitwirkung von Gwanghun Park (2025). Grüßen – und grüßen lassen. In Aline Deicke, Jochen Strobel (Hg.), Connecting the Dots. Briefe in Literaturwissenschaft und Digital Humanities. De Gruyter. (preprint)
+Laura Fath, Jochen Strobel und Gwanghun Park (2025). Grüßen – und grüßen lassen. In: Aline Deicke, Jochen Strobel (Hg.), Briefe in Literaturwissenschaft und Digital Humanities: Quantitative und qualitative Analyseperspektiven für eine digitale Briefforschung. De Gruyter. https://doi.org/10.1515/9783111675732-008
 ```
 
 # Directory structure
